@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #111111;
+  color: white;
+  padding: 0px 4rem 0px 4rem;
+  max-width: 1600px; /* keeps design centered */
+  margin: 0 auto;
+}
+
+.header {
+  height: 4rem;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.languages {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  padding-top: 5rem;
+}
+.hero h1 {
+  font-family: "Fira Code", monospace;
+  font-size: 7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;           /* avoid clipping */
+  position: relative;
+  left: -8px;               /* nudge 2px left */
+}
+
+.hero h1 span {
+  display: block;
+  text-align: right;
+}
