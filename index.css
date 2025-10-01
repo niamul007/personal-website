@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #111111;
-  color: white;
+  color: #f5f5f5;
   padding: 0px 4rem 0px 4rem;
-  max-width: 1600px; /* keeps design centered */
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -44,28 +44,97 @@ body {
   font-size: 1rem;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-  width: 100%;
-  gap: 2rem;
-  padding: 0;
-  margin: 0;
-  padding-top: 5rem;
-}
-.hero h1 {
-  font-family: "Fira Code", monospace;
-  font-size: 7rem;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;           /* avoid clipping */
-  position: relative;
-  left: -8px;               /* nudge 2px left */
+/* hero section design  */
+
+.wrapper {
+  width: 100%; /* or your hero bg */
 }
 
-.hero h1 span {
-  display: block;
-  text-align: right;
+.hero {
+  max-width: 1600px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Full-stack stays on the left */
+  font-size: 9rem;
+  line-height: 1;
+  font-family: "Fira Code", monospace;
+}
+
+.title-right {
+  align-self: flex-end; /* Developer goes to the right */
+  /* optional styling */
+}
+
+.para-and-btn {
+  position: relative;
+  top: -13.5rem;
+  left: 0;
+  width: 30%;
+}
+
+.hero-para {
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #a6a6a6;
+}
+.hero-para i {
+  color: #f5f5f5;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  position: relative;
+  top: -28rem;
+}
+
+.hero-btn {
+  height: 4rem;
+  width: 18rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  background-color: #f5f5f5;
+  color: #111111;
+  font-style: italic;
+}
+
+.round-icon-btn {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50px;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 55px;
+  width: 180px;
+  border-radius: 50px;
+  border: 1px solid #a6a6a6;
+}
+
+.logo-name{
+  font-size: 1rem;
+  color: #a6a6a6;
+}
+
+
+.icon-img{
+  height: 40px;
+  width:40px;
 }
