@@ -110,31 +110,102 @@ h1 {
   width: 4rem;
   border-radius: 50px;
 }
-.social-links{
+.social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
 }
 
-.social-icon{
+.social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  height: 55px;
-  width: 180px;
+  height: 45px;
+  width: 170px;
   border-radius: 50px;
-  border: 1px solid #a6a6a6;
+  border: 1px solid #5f5e5e;
 }
 
-.logo-name{
+.logo-name {
   font-size: 1rem;
   color: #a6a6a6;
 }
 
-
-.icon-img{
+.icon-img {
   height: 40px;
-  width:40px;
+  width: 40px;
+}
+
+/* inde
+
+/* from here we will qork on splide  */
+
+.slider {
+  margin: 0 auto; /* center horizontally */
+  padding: 60px 20px; /* 60px top & bottom, 20px sides */
+}
+/* default slide (inactive) */
+.splide__slide {
+  height: 330px;
+  border-radius: 60px;
+  background-color: #5a3535;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 48px;
+  border-radius: 12px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* active slide */
+.splide__slide.is-active {
+  background-color: #156241; /* different color for active slide */
+  transform: scale(1.05);
+}
+
+.slide-para{
+  padding: 1rem;
+}
+.slide-items {
+  height: 330px;
+  width: 400px;
+  background-color: #090404;
+  opacity: 0.4;
+  /* padding: 1rem 2rem 1rem 2rem; */
+}
+
+.slide-item-title{
+  font-size: 1.4rem;
+  color: #f5f5f5;
+}
+
+.slide-item-para{
+  font-size: 1rem;
+  color: #f5f5f5;
+}
+
+
+.btns{
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+.slide-btn-1{
+  height: 42px;
+  width: 160px;
+  color: #111111;
+  background-color: #f5f5f5 ;
+  border-radius: 50px;
+}
+.slide-btn-2{
+  height: 42px;
+  width: 42px;
+  color: #111111;
+  background-color: #f5f5f5 ;
+  border-radius: 50px;
 }
